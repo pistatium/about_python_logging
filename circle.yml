@@ -1,0 +1,33 @@
+general:
+  artifacts:
+    - build/reports
+
+machine:
+  timezone:
+    Asia/Tokyo
+  python:
+    version: 3.6.2
+
+dependencies:
+  pre:
+    - pip install jupyter
+
+deployment:
+  deploy:
+    branch: master
+    commands:
+      - jupyter nbconvert --to markdown about_logging.ipynb --output README.md
+      - git config --global user.email kimihiro.nisimura@gmail.com
+      - git config --global user.name kimihiro_n
+      - git add --all :/
+      - git commit ./site/* -m "build README.md [ci skip]"
+      - git pull git@github.com:pistatium/about_python_logging.git master
+      - git push git@github.com:pistatium/about_python_logging.git master
+
+test:
+  pre: 
+    - echo "-----start test-----"
+  override:    
+    - echo "-----no test-----"
+  post: 
+    - echo "-----end test-----"
