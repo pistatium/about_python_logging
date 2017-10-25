@@ -19,8 +19,8 @@ deployment:
       - jupyter nbconvert --to markdown about_logging.ipynb --output README.md
       - git config --global user.email kimihiro.nisimura@gmail.com
       - git config --global user.name kimihiro_n
-      - git add --all :/
-      - git commit ./site/* -m "build README.md [ci skip]"
+      - git add README.md
+      - git commit -m "build README.md [ci skip]"
       - git pull git@github.com:pistatium/about_python_logging.git master
       - git push git@github.com:pistatium/about_python_logging.git master
 
