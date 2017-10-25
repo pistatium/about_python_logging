@@ -33,11 +33,11 @@
                 "blackhole"
             ],
             "propagate": false
-        },
-        "root": {
-            "handlers": [
-                "console"
-            ]
         }
+    },
+    "root": {
+        "handlers": [
+            "console"
+        ]
     }
 }
