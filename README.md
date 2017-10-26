@@ -1,9 +1,10 @@
 
+<a href="https://speakerdeck.com/pistatium/sutukirifen-karu-python-falserogu"><img src="https://github.com/pistatium/about_python_logging/blob/master/etc/slide_thumb.png?raw=true" width=300></a>
+
+
 # すっきり分かる Python のログ
 
 Python のロガー周りを理解するための資料です。
-
-<script async class="speakerdeck-embed" data-id="245fa29702f74cd8a1f0fa57e5bc25bd" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 
 ## Loggerを使う
