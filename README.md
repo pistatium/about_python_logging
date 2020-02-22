@@ -187,7 +187,7 @@ Handler の仕事は、渡ってきたログを適切に処理することです
 HandlerがどのようにLogを処理するかはこの図をみると分かりやすいです。
 
 <img src='https://docs.python.jp/3/_images/logging_flow.png'>
-([Logging HOWTO - Python 3.6.3 ドキュメント](https://docs.python.jp/3/howto/logging.html#useful-handlers)より)
+<a href="https://docs.python.jp/3/howto/logging.html#useful-handlers">Logging HOWTO - Python 3.6.3 ドキュメント</a> より
 
 この図のポイントは 左側の "Set current logger to parent" という部分ですね。 
 
@@ -351,7 +351,7 @@ hoge_logger.error('hoge: error')
 
 # 参考
 
- Logging HOWTO - Python3 公式ドキュメント
+Logging HOWTO - Python3 公式ドキュメント
 https://docs.python.jp/3/howto/logging.html  
 
  
