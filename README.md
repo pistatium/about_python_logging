@@ -1,6 +1,7 @@
 
 <a href="https://speakerdeck.com/pistatium/sutukirifen-karu-python-falserogu"><img src="https://github.com/pistatium/about_python_logging/blob/master/etc/slide_thumb.png?raw=true" width=300></a>
 
+↑ スライドはこちらから
 
 # すっきり分かる Python のログ
 
